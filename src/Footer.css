@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-element{
+    transform:scale(2);
+    padding: 16px;
+}
