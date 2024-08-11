@@ -1,9 +1,11 @@
 .about{
-    display:flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portrait{
-    
+    transform: scale(.75);
 }
 
 .description{

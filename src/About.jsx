@@ -4,19 +4,22 @@ import './About.css'
 
 function About() {
     return(
-        <div class=""> 
+        <div> 
             <text></text> {/* SLIDESHOW */}
-            <div> {/* INTRODUCTION */}
+            <div class="about" >{/* INTRODUCTION */}
                 <div> {/* PORTRAIT */}
-                        <img src={portrait}/>
+                        <img src={portrait} class="portrait"/>
                 </div> 
-                <div>
+                <div class="description">
                         <h2>
                             William Choi
                         </h2>
                         <h3>
-                            Softwarre Engineer
+                            Software Engineer
                         </h3>
+                        <plaintext>
+                            Hello there!  
+                        </plaintext>
                 </div> {/* DESCRIPTION */}
             </div>
         </div>
