@@ -1,16 +1,17 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     background-color: white;
 
 }
 
-.header-left{
-    justify-content: left;
+.header-item{
+    padding: 10px;
 }
 
 .header-right{
+    display: flex;
     justify-content: right;
 }

@@ -1,27 +1,25 @@
-import portrait from './assets/portrait.jpg'
-
 import './About.css'
+import Carousel from 'react-bootstrap/Carousel'
 
-function About() {
+
+import Content from './Content.jsx'
+/*
+POTENTIAL IMAGES FOR SLIDESHOW 
+    graduation from highschool
+    picture of me at university
+    picture of me going to carpenter
+*/
+function About(){
     return(
-        <div> 
-            <text></text> {/* SLIDESHOW */}
-            <div class="about" >{/* INTRODUCTION */}
-                <div> {/* PORTRAIT */}
-                        <img src={portrait} class="portrait"/>
-                </div> 
-                <div class="description">
-                        <h2>
-                            William Choi
-                        </h2>
-                        <h3>
-                            Software Engineer
-                        </h3>
-                        <plaintext>
-                            Hello there!  
-                        </plaintext>
-                </div> {/* DESCRIPTION */}
-            </div>
+        <div>
+            <Content
+                portrait={portrait}
+                name="Wiliam Choi"
+                title="Software Engineer"
+                description=" Hello there! My name is William Choi, an aspiring software engineer currently a senior at Bucknell University pursuing a Bachelor's of Science in Computer Science. 
+                I grew up in Lancaster, PA being raised by a family of Chinese immigrants and came to loveany work related to computing and programming after realizing how the field encapsulted the creativity of the arts and the technicality of traditional engineering. 
+                In my free time, I often enjoy reading, and playing the saxophone for my university's Jazz Band."
+            />
         </div>
     )
 }

@@ -3,15 +3,17 @@ import './Header.css'
 function Header() {
     return(
         <div class="header">
-            <h1>
+            <h2 class="header-item">
                 William Choi
-            </h1>
-            <h1>
-                Projects
-            </h1>
-            <h1>
-                Resume
-            </h1>
+            </h2>
+            <div class="header-right">
+                <h2 class="header-item">
+                    Projects
+                </h2>
+                <h2 class="header-item"> 
+                    Resume
+                </h2>
+            </div>
         </div>
     )
 }

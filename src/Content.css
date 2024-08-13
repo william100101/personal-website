@@ -1,0 +1,11 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait{
+    transform: scale(.75);
+    border-radius: 25px;
+}
+
