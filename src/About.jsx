@@ -12,6 +12,7 @@ POTENTIAL IMAGES FOR SLIDESHOW
 function About(){
     return(
         <div>
+            <Carousel />
             <Content
                 portrait={portrait}
                 name="Wiliam Choi"
