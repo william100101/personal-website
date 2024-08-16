@@ -10,9 +10,8 @@ function Projects(){
                 name="Manufacturing Execution System Message Hub"
                 title=""
                 description="During the summer of my junior year I interned at Carpenter Technology, a company headquartered in Reading, Pennsylvania that made specialized steel for industries like defense and aviation
-                When I was working here I was tasked with independently making a web application that could track and resend messages coming too and from a SQL database housing correspondance messages between the Microsoft service Biztalk and a local mainframe.
-                This task was relevant to the company since when messages between these would fail and lay undetected, thousands of dollars would be lost due to delayed orders. 
-                The frontend for this application was made using Microsoft's Blazor framework and its backend used C# and Entity Frameworks to handle interactions between my program's buisness logic and SQL.
+                I was tasked with independently making a web application that could track and resend messages coming to and from a SQL database housing correspondence messages betweenMicrosoft's Biztalk and a local mainframe. 
+                The frontend for this application was made using Microsoft's Blazor framework and its backend used C# and Entity Frameworks to handle interactions between my program's business logic and SQL
                 "
                 />
              <Content 

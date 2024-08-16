@@ -6,6 +6,7 @@ import Header from './Header.jsx'
 import App from './App.jsx'
 import Footer from './Footer.jsx'
 import Content from './Content.jsx'
+import Resume from './Resume.jsx'
 
 //ASSETS
 import portrait from './assets/portrait.jpg'
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')).render(
       I grew up in Lancaster, PA being raised by a family of Chinese immigrants and came to loveany work related to computing and programming after realizing how the field encapsulted the creativity of the arts and the technicality of traditional engineering. 
       In my free time, I often enjoy reading, and playing the saxophone for my university's Jazz Band."
     />
+    <Resume/>
     <Footer />
   </StrictMode>,
 )
