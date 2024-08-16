@@ -7,6 +7,7 @@ function Projects(){
     return(
         <div>
             <Content 
+                portrait="./carpenter technology logo.jpg"
                 name="Manufacturing Execution System Message Hub"
                 title=""
                 description="During the summer of my junior year I interned at Carpenter Technology, a company headquartered in Reading, Pennsylvania that made specialized steel for industries like defense and aviation
@@ -14,7 +15,8 @@ function Projects(){
                 The frontend for this application was made using Microsoft's Blazor framework and its backend used C# and Entity Frameworks to handle interactions between my program's business logic and SQL
                 "
                 />
-             <Content 
+             <Content
+                portrait="./color-clarifer-logo.png" 
                 name="ColorClarifer" 
                 title=""
                 description="During the summer of my sophmore year I participated in AccessHack 2022 as ran by Northerneastern University. 

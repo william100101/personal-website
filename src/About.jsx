@@ -1,5 +1,6 @@
 import './About.css'
 import Carousel from 'react-bootstrap/Carousel'
+import portrait from './assets/portrait.jpg'
 
 
 import Content from './Content.jsx'
@@ -12,7 +13,7 @@ POTENTIAL IMAGES FOR SLIDESHOW
 function About(){
     return(
         <div>
-            <Carousel />
+            {/*<Carousel />*/}
             <Content
                 portrait={portrait}
                 name="Wiliam Choi"
